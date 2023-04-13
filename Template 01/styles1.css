@@ -1,0 +1,55 @@
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* CSS for the form */
+  #form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #email {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #submit {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #submit:hover {
+    background-color: #555;
+  }
+  
+  /* CSS for media queries */
+  @media (max-width: 768px) {
+    #nav-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-link {
+      margin: 10px 0;
+    }
+    #video {
+      width: 100%;
+    }
+  }
